@@ -9,32 +9,13 @@ const TestimonialSection = () => {
         const testimonialData = [
             {
                 id: 1,
-                name: 'John Doe',
+                name: 'Jeevan Dangi',
                 role: 'Customer',
                 message: 'This is the best eCommerce site I have ever used. Easy to navigate and fast delivery!',
                 image: '../../public/image/profile.JPG',
             },
-            {
-                id: 2,
-                name: 'John Doe',
-                role: 'Customer',
-                message: 'This is the best eCommerce site I have ever used. Easy to navigate and fast delivery!',
-                image: '../../public/image/profile.JPG',
-            },
-            {
-                id: 3,
-                name: 'John Doe',
-                role: 'Customer',
-                message: 'This is the best eCommerce site I have ever used. Easy to navigate and fast delivery!',
-                image: '../../public/image/profile.JPG',
-            },
-            {
-                id: 4,
-                name: 'John Doe',
-                role: 'Customer',
-                message: 'This is the best eCommerce site I have ever used. Easy to navigate and fast delivery!',
-                image: '../../public/image/profile.JPG',
-            },
+
+
         ];
         setTestimonials(testimonialData);
     }, []);
