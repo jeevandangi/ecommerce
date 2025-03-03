@@ -4,7 +4,7 @@ import Footer from '../component/Footer'
 import { Outlet, useNavigate } from 'react-router-dom'
 
 
-import { UserNavBar } from '../user/userNavBar'
+import { UserNavBar } from '../user/UserNavBar'
 
 
 const UserLayout = () => {
